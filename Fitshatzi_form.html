@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Fitshatzi_form.css" />
+    <link rel="shortcut icon" href="#" />
+    <title>Fitshatzi</title>
+    <style>
+      body {
+        overflow-y: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="v-header container">
+      <div class="fullscreen-video-wrap">
+        <video
+          src="Running_02.mp4"
+          type="video/mov"
+          muted="true"
+          autoplay="true"
+          loop="true"
+          preload="auto"
+        ></video>
+      </div>
+      <div class="header-overlay"></div>
+      <div class="header-content">
+        <h1>Welcome to Fitshatzi!</h1>
+        <p>
+          Here at Fitshatzi we take our clients very seriously. We listen to all
+          their health goals and make custom plans to suit their needs. Please
+          click the link below to enter your information!
+        </p>
+      </div>
+      <button onClick="clickButton()" id="uniqueButton" type="button">
+        Contact Information
+      </button>
+      <div class="paragraph-content">
+        <p>"The beginning of any journey starts with the first step"</p>
+      </div>
+    </header>
+    <script defer src="Fitshatzi_form.js"></script>
+  </body>
+</html>
